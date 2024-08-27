@@ -1,12 +1,13 @@
 import { useState } from "react";
 import houses1 from "../../assets/images/house1.jpg";
 import houses11 from "../../assets/images/house11.jpg";
+import houses12 from "../../assets/images/house12.jpg";
 import houses2 from "../../assets/images/house2.jpg";
 import houses21 from "../../assets/images/house21.jpg";
 import houses22 from "../../assets/images/house22.jpg";
 import houses3 from "../../assets/images/house3.jpg";
 import houses31 from "../../assets/images/house31.jpg";
-// import houses32 from "../../assets/images/house32.jpg";
+import houses32 from "../../assets/images/house32.jpg";
 
 
 
@@ -53,8 +54,8 @@ const Houses_plan = () => {
               <img src={houses1} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={houses11} alt="" className="houses_img" />
-              {/* <div className="houses_border"></div> */}
-              {/* <img src={universal} alt="" className="houses_img" /> */}
+              <div className="houses_border"></div>
+              <img src={houses12} alt="" className="houses_img" />
             </div>
           )}
 
@@ -81,8 +82,8 @@ const Houses_plan = () => {
               <img src={houses3} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={houses31} alt="" className="houses_img" />
-              {/* <div className="houses_border"></div>
-              <img src={houses32} alt="" className="houses_img" /> */}
+              <div className="houses_border"></div>
+              <img src={houses32} alt="" className="houses_img" />
             </div>
           )}
 
