@@ -25,10 +25,10 @@ const Company = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [hasAnimated]);
   const animateNumber = (start, end, duration, setNumber) => {
@@ -46,26 +46,44 @@ const Company = () => {
     }, 1);
   };
   return (
-    <div className="company" >
+    <div className="company">
       <div className="container">
         <div className="company_box">
           <div className="company_card">
             <div className="company_card_top">
               <h2 className="company_title">Quruvchi kompaniya to‘g‘risida</h2>
               <p className="company_text">
-                Xurshid Turayev boshchiligidagi TXT Group yirik va zamonaviy qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman va shaharlarida turar-joy majmualari barpo etgan. Kompaniya 2011-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda samarali hamkor sifatida tanilgan.
+                Xurshid Turayev boshchiligidagi TXT Group yirik va zamonaviy
+                qurilish kompaniyasi boʻlib, Oʻzbekistonning 10 dan ortiq tuman
+                va shaharlarida turar-joy majmualari barpo etgan. Kompaniya
+                2011-yilda tashkil etilgan va shu vaqt ichida ishonchli hamda
+                samarali hamkor sifatida tanilgan.
               </p>
               <p className="company_text">
-                Har bir loyiha biz uchun nafaqat biznes, balki oʻz mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish imkoniyatidir. Bizning asosiy missiyamiz mustahkam va qulay uy-joylar qurish orqali xalqimizning farovonligini taʼminlashdir.
+                Har bir loyiha biz uchun nafaqat biznes, balki oʻz
+                mijozlarimizga eng yaxshi yashash sharoitlarini taqdim etish
+                imkoniyatidir. Bizning asosiy missiyamiz mustahkam va qulay
+                uy-joylar qurish orqali xalqimizning farovonligini
+                taʼminlashdir.
               </p>
               <p className="company_text">
-                Kompaniyamiz sifat, mustahkamlik va zamonaviy yondashuvlar asosida eng yuqori darajadagi qurilish xizmatlarini taqdim etishni oʻz oldiga maqsad qilgan. Har bir loyiha biz uchun oʻziga xosdir, shuning uchun biz nafaqat texnik koʻrsatkichlarga, balki mijozlarimizning istak va ehtiyojlariga ham katta eʼtibor qaratamiz.
+                Kompaniyamiz sifat, mustahkamlik va zamonaviy yondashuvlar
+                asosida eng yuqori darajadagi qurilish xizmatlarini taqdim
+                etishni oʻz oldiga maqsad qilgan. Har bir loyiha biz uchun
+                oʻziga xosdir, shuning uchun biz nafaqat texnik
+                koʻrsatkichlarga, balki mijozlarimizning istak va ehtiyojlariga
+                ham katta eʼtibor qaratamiz.
               </p>
               <p className="company_text">
-                Biz bilan hamkorlik qilib, siz barqaror va mustahkam qurilish yechimlarini tanlaysiz. Biz sizning ishonchingizni oqlash va orzularingizdagi loyihani hayotga tatbiq etish uchun doim harakatdamiz!
+                Biz bilan hamkorlik qilib, siz barqaror va mustahkam qurilish
+                yechimlarini tanlaysiz. Biz sizning ishonchingizni oqlash va
+                orzularingizdagi loyihani hayotga tatbiq etish uchun doim
+                harakatdamiz!
+              </p>
+              <p className="company_text">
+                <a href="https://www.txt.group/">www.txt.group</a> saytiga tashrif buyurib, kompaniya faoliyati haqida batafsil maʼlumot olishingiz mumkin.
               </p>
             </div>
-
           </div>
           <div className="company_card_img">
             <img src={universal} alt="" className="company_img" />
